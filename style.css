@@ -18,8 +18,8 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 /* start media  */
-@media (max-width: 812px){
-  #about .about-content{
+@media (max-width:991px) {
+  #about .container .about-content{
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -40,7 +40,6 @@ body{
   grid-template-columns: 1fr;
  }
 }
-
 
 
 /* end media  */
