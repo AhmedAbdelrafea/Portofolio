@@ -18,7 +18,7 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 /* start media  */
-/* @media (max-width: 768px){
+@media (max-width: 812px){
   #about .about-content{
     display: grid;
     grid-template-columns: 1fr;
@@ -26,15 +26,21 @@ body{
   #home .header-content{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
   #home .header-content img{
     margin: auto;
   }
-  #contact .cont{
+  #contact .container .cont{
   display: grid;
   grid-template-columns: 1fr;
  }
-} */
+ #skill .skill-content  .row{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+}
+
 
 
 /* end media  */
