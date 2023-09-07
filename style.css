@@ -18,6 +18,24 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 /* start media  */
+/* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
 @media (max-width:991px) {
   #about .container .about-content{
     display: grid;
